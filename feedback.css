@@ -1,0 +1,30 @@
+body {
+    font-family: 'Josefin Sans';
+}
+h1 {
+    font-size: calc(35px + 1.5vw);
+    font-weight: 700;
+    color: white;
+    background-color: #c08b6f;
+}
+p {
+    font-size: calc(15px + 1.8vw);
+}
+input, textarea {
+    border: double #c08b6f;
+    background-color: #ffffff;
+}
+.btn-outline-primary {
+    color: #c08b6f;
+    outline: auto;
+    background-color: #ffffff;
+}
+.btn-outline-primary:hover {
+    background-color: #c08b6f; 
+}
+.btn-outline-primary:hover:after {
+    content: normal;
+    color: #c08b6f;
+    outline: auto;
+    background-color: #ffffff;
+}
