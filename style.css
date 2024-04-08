@@ -7,13 +7,15 @@ h1 {
     color: white;
     background-color: #c08b6f;
 }
-p {
-    font-size: calc(15px + 1.8vw);
+.lead {
+    font-size: calc(10px + 1.8vw);
 }
 .container {
     margin-top: 4px;
+    width: 425px;
 }
 label {
+    font-size: calc(5px + 1.6vw);
     font-weight: 350;
 }
 input, textarea {
