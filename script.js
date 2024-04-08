@@ -4,9 +4,11 @@ async function sendInfo(event) {
     const username = document.getElementById("username").value;
     const currentEventRating = document.getElementById("currentEventRating").value;
     const overallEventRating = document.getElementById("overallEventRating").value;
-    const feedback = document.getElementById("feedback").value;
     const annRating = document.getElementById("annRating").value;
+    const timingRating = document.getElementById("timingRating").value;
+    const helpRating = document.getElementById("helpRating").value;
     const futEvents = document.getElementById("futEvents").value;
+    const feedback = document.getElementById("feedback").value;
 
     const webhookContents = {
         embeds: [{
@@ -16,6 +18,8 @@ async function sendInfo(event) {
                 { name: 'Web && Design Rating', value: currentEventRating },
                 { name: 'Overall Event Rating', value: overallEventRating },
                 { name: 'Announcement Formatting Rating', value: annRating },
+                { name: 'Length Between Milestones Rating', value: timingRating },
+                { name: 'Helpfulness Rating', value: helpRating },
                 { name: 'Future Event Suggestions', value: futEvents },
                 { name: 'Feedback', value: feedback }
             ],
