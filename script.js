@@ -27,7 +27,7 @@ async function sendInfo(event) {
         }],
     };
 
-    const webhookUrl = 'https://discord.com/api/webhooks/1226205834103492648/pKebaMzgQ_oVvPHpBLVvSEH2LhYlv83C-oc-UCQ-RFknVmLpvBuw5mnETfcu1lUWBrt4';
+    const webhookUrl = 'https://discord-proxy-six.vercel.app/api/send';
 
     const response = await fetch(webhookUrl, {
         method: 'POST',
