@@ -28,6 +28,7 @@ button {
     padding: 4px 8px;
     transition-duration: 0.25s;
     background-color: #ffffff;
+    margin-bottom: 12px;
 }
 button:visited {
     content: normal;
