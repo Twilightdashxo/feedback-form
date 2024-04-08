@@ -10,21 +10,43 @@ h1 {
 p {
     font-size: calc(15px + 1.8vw);
 }
+.container {
+    margin-top: 4px;
+}
+label {
+    font-weight: 350;
+}
 input, textarea {
     border: double #c08b6f;
     background-color: #ffffff;
 }
-.btn-outline-primary {
+button {
     color: #c08b6f;
     outline: auto;
+    border: solid 1px #c08b6f;
+    border-radius: 5px;
+    padding: 4px 8px;
+    transition-duration: 0.25s;
     background-color: #ffffff;
 }
-.btn-outline-primary:hover {
-    background-color: #c08b6f; 
-}
-.btn-outline-primary:hover:after {
+button:visited {
     content: normal;
     color: #c08b6f;
-    outline: auto;
+    border: solid #c08b6f;
     background-color: #ffffff;
+}
+button:hover {
+    color: #ffffff;
+    border: solid #c08b6f;
+    background-color: #c08b6f; 
+}
+button:active {
+    color: #ffffff;
+    border: solid #c08b6f;
+    background-color: #c08b6f; 
+}
+button:focus {
+    color: #c08b6f;
+    border: solid #c08b6f;
+    background-color: #ffffff; 
 }
