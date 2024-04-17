@@ -12,7 +12,6 @@ h1 {
 }
 .container {
     margin-top: 4px;
-    width: 625px;
 }
 label {
     font-size: calc(5px + 1.6vw);
