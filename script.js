@@ -27,13 +27,13 @@ async function sendInfo(event) {
         }],
     };
 
-    const webhookUrl = "https://discord-proxy-six.vercel.app/api/send";
+    const webhookUrl = "https://i.ahmood.xyz/send/webhook";
 
     const response = await fetch(webhookUrl, {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json',
-            'auth': '4XyCPCuf6Dq65gcPBZPBjq59Uwzs1d971uXRjPYii3KIV2AZoaZ4zkjED8XGbbv9'
+            'Authorization: '4XyCPCuf6Dq65gcPBZPBjq59Uwzs1d971uXRjPYii3KIV2AZoaZ4zkjED8XGbbv9'
         },
         body: JSON.stringify(webhookContents),
     });
